@@ -1,0 +1,23 @@
+{
+  "name": "landing_page_audio_people",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind:watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Barret-Pierre/landing_page_audio_people.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Barret-Pierre/landing_page_audio_people/issues"
+  },
+  "homepage": "https://github.com/Barret-Pierre/landing_page_audio_people#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
