@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Légion Audio</title>
   <!-- file généré lors de la compilation -->
   <link href="/dist/output.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,11 +16,152 @@
 
 </head>
 
-<body>
-  <h1 class="text-3xl font-bold text-primary">
-    Hello world
-  </h1>
+<body class="bg-zinc-900 text-white font-poppins">
 
+  <!-- Hero -->
+  <section class="min-h-screen flex items-center justify-center">
+    <div class="max-w-[1024px] w-[90%] mx-auto flex items-center flex-col-reverse md:flex-row gap-10">
+      <div class="flex-1 text-center md:text-left">
+        <h1 class="text-4xl md:text-6xl font-bold text-primary leading-tight uppercase">La Légion Audio</h1>
+        <p class="text-sm md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta rem consequuntur
+          inventore.
+          Officiis eum
+          facilis quidem mollitia.</p>
+        <a href="#" class="btn-primary">Écouter
+          Maintenant</a>
+      </div>
+      <div class="flex-1">
+        <div class="w-full h-[50vh] md:h-screen overflow-hidden relative">
+          <img class="w-full h-full md:h-[150vh] object-contain md:absolute md:top-[-25%]"
+            src="../public/hero_image.png" alt="Visuel graphique d'un micro et d'une podcasteuse">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hôte -->
+  <section class="min-h-screen flex items-center justify-center bg-orange-200 py-[100px] text-gray-700">
+    <div class="max-w-[1024px] w-[90%] mx-auto">
+      <div class="text-center max-w-lg mx-auto">
+        <h1 class="text-4xl md:text-6xl font-bold text-primary leading-tight uppercase">Nos Podcasteurs</h1>
+        <p class="text-sm md:text-lg mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+          possimus sed est numquam nostrum unde velit sunt
+          aperiam fuga ducimus quasi, maiores doloremque provident accusantium blanditiis veniam facilis, recusandae
+          labore.</p>
+      </div>
+      <div class="mx-auto mt-11 flex gap-5 flex-col md:flex-row">
+        <div class="bg-orange-300 p-5 rounded-xl flex-1">
+          <img src="../public/hote_enki_bilal.png" alt="Enki Bilal " class=" rounded-lg object-cover w-full">
+          <h2 class="text-xl font-medium mt-3">Enki Bilal</h2>
+          <p class="text-sm md:text-lg mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt in,
+            repellat optio modi eos voluptates reiciendis ipsum enim maxime expedita</p>
+        </div>
+        <div class="bg-gray-700  p-5 rounded-xl flex-1 text-orange-200">
+          <img src="../public/hote_jesse_custer.png" alt="Jesse Custer" class=" rounded-lg object-cover w-full">
+          <h2 class="text-xl font-medium mt-3">Jesse Custer</h2>
+          <p class="text-sm md:text-lg mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt in,
+            repellatoptio modi eos voluptates reiciendis ipsum enim maxime expedita</p>
+        </div>
+      </div>
+  </section>
+
+  <!-- Écouter -->
+  <section class="flex items-center justify-center pt-[100px]">
+    <div class="max-w-[1024px] w-[90%] mx-auto">
+      <h1 class="text-4xl md:text-6xl font-bold text-primary text-center leading-tight uppercase">Les podcasts les
+        plus écoutés
+      </h1>
+      <div class="mt-10 max-w-[100%] overflow-x-auto rounded-lg">
+        <table class="w-full bg-zinc-800 rounded-lg text-center mx-auto overflow-hidden">
+          <thead>
+            <tr class="bg-zinc-700 ">
+              <th class="p-3">Podcasteur</th>
+              <th class="p-3">Date</th>
+              <th class="p-3">Lien</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-gray-500">
+              <td class="p-3">Enki Billal</td>
+              <td class="p-3">28/05/2023</td>
+              <td class="p-3">
+                <a href="#" class="btn-secondary">Écouter</a>
+              </td>
+            </tr>
+            <tr class="border-b border-gray-500">
+              <td class="p-3">Enki Billal</td>
+              <td class="p-3">28/05/2023</td>
+              <td class="p-3">
+                <a href="#" class="btn-secondary">Écouter</a>
+              </td>
+            </tr>
+            <tr class="border-b border-gray-500">
+              <td class="p-3">Enki Billal</td>
+              <td class="p-3">28/05/2023</td>
+              <td class="p-3">
+                <a href="#" class="btn-secondary">Écouter</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="p-3">Enki Billal</td>
+              <td class="p-3">28/05/2023</td>
+              <td class="p-3">
+                <a href="#" class="btn-secondary">Écouter</a>
+              </td>
+            </tr>
+          </tbody>
+
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="flex items-center justify-center py-[100px]">
+    <div class="max-w-[1024px] w-[90%] mx-auto">
+      <div class="flex justify-between flex-col md:flex-row md:gap-5 gap-10">
+        <div class="text-center">
+          <h2 class="text-[80px] placeholder: font-bold text-primary leading-tight uppercase ">50+</h2>
+          <p class="text-xl">Podcasts</p>
+        </div>
+        <div class="text-center">
+          <h2 class="text-[80px] placeholder: font-bold text-primary leading-tight uppercase ">15+</h2>
+          <p class="text-xl">Podcasteurs</p>
+        </div>
+        <div class="text-center">
+          <h2 class="text-[80px] placeholder: font-bold text-primary leading-tight uppercase ">100%</h2>
+          <p class="text-xl">Free</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+
+  <section class="flex items-center justify-center py-[100px] bg-cta-image bg-cover bg-center bg-fixed">
+    <div class="max-w-[1024px] w-[90%] mx-auto">
+      <h1 class="max-w-[800px] text-4xl md:text-[80px] font-bold leading-tight uppercase">Ne manquez pas le
+        dernier épisode
+      </h1>
+      <a href="#" class="btn-tertiary">Écouter
+        Maintenant</a>
+    </div>
+  </section>
+
+  <footer class="flex items-center justify-center py-[100px]">
+    <div class="max-w-[1024px] w-[90%] mx-auto text-center">
+      <h1 class="text-4xl md:text-[80px] text-primary font-bold leading-tight uppercase">La Légion Audio
+      </h1>
+      <p class="text-sm md:text-lg my-3 max-w-[600px] mx-auto text-gray-400">Lorem ipsum dolor sit amet,
+        consectetur
+        adipisicing
+        elit.
+        Provident corrupti ad
+        architecto dignissimos.
+        Asperiores officia nulla blanditiis fugiat soluta quis, vitae nesciunt tempora maxime voluptas beatae illo
+        corporis totam ex.</p>
+    </div>
+  </footer>
 </body>
 
 </html>
