@@ -2,7 +2,7 @@
 
 Version V0 :
 
-Landing page simple avec deux section, les call to action ne renvoi sur rien mais l'objectif est de présenter un nouveau produit et d'inciter l'utilisateur à aller sur le site du client
+Landing page simple, les call to action ne renvoient sur rien mais l'objectif est d'inciter l'utilisateur à aller sur le site du client.
 
 Amélirations possible:
 
