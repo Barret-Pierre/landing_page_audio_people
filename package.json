@@ -16,8 +16,11 @@
   "bugs": {
     "url": "https://github.com/Barret-Pierre/landing_page_audio_people/issues"
   },
-  "homepage": "https://github.com/Barret-Pierre/landing_page_audio_people#readme",
+  "homepage": "https://barret-pierre.github.io/landing_page_audio_people",
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "tailwindcss": "^3.2.4"
-  }
+  },
+  "predeploy": "npm i",
+  "deploy": "gh-pages -d build"
 }
